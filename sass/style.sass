@@ -1,0 +1,148 @@
+$color_gray: #ccc
+* 
+  // border: 1px solid black
+  font-family: 微軟正黑體
+body 
+  height: 2000px
+
+h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 
+  font-size: bold
+
+// === nav ===
+nav.navbar
+  transition: 0.5s
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top
+  background-color: #ccc
+  border: #ccc
+  a
+    color: white
+    transition: 0.5s
+    &:hover
+      color: $color_gray
+.box
+  width: 100px
+  height: 100px
+  background-color: red
+
+// === rslides ===
+.rslides 
+  margin: 0 auto 40px;
+
+.rslides 
+  img 
+    display: block;
+    height: auto;
+    float: left;
+    width: 100%;
+    border: 0;
+
+// === header ===
+header.jumbotron
+  text-align: center
+  background-image: url(https://images.unsplash.com/photo-1489980721706-f487dab89c24?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1f388d3cd50d3f0c3900173d9d5cf4d&auto=format&fit=crop&w=1951&q=80)
+  background-size: cover
+  background-attachment: fixed
+  background-position: bottom
+  height: 750px
+  .container
+    padding: 100px 0
+    color: white
+    hr
+      max-width: 50px
+      border: solid 2px $color_gray
+    h4
+      color: rgba(white,0.5)
+      font-weight: normal
+      
+section 
+  padding: 50px 0
+
+// === #section_about ===
+section#section_about
+  background-color: $color_gray
+  .col-sm-5.img
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/df/dd/eb/dfddeb174a4be44a601aa3fed6b6d30d.jpg)
+    background-size: cover
+    background-position: center
+    height: 500px
+  .col-sm-7
+    padding-top: 50px;
+
+// === #section_product ===
+section#section_product
+  text-align: center
+  img
+    width: 150%
+  .img_wrap
+    height: 220px
+    overflow: hidden
+
+// === #section_texture ===
+section#section_texture
+  margin-bottom: 60px
+  background-color: #ccc
+  color: white
+  padding: 0
+  .col-sm-5
+    .tailor
+      background-image: url(https://www.permanentstyle.com/wp-content/uploads/2017/03/sartoria-ciccio-cutter.jpg)
+      background-size: cover
+      background-repeat: no-repeat
+      background-position-x: right
+      height: 650px
+    
+  .col-sm-7
+    text-align: center
+    i
+      font-size: 40px
+  .col-sm-12.feature
+    margin-top: 30px
+    margin-bottom: 30px 
+    .img_wrap
+      height: 220px
+      overflow: hidden
+      img
+        width: 100%
+        overflow: hidden
+
+// === #section_porfolio ===
+section#section_porfolio
+  text-align: center
+  .porfolio_item
+    height: 325px
+    // border: 1px solid black
+    img
+      width: 100%
+      overflow: hidden
+
+// === #section_contact ===
+section#section_contact
+  img
+    width: 100%
+  i
+    font-size: 30px
+  .feature
+    padding-top: 10px
+    
+// === footer.jumbotron ===
+footer.jumbotron
+  text-align: center
+  background-image: url(https://images.unsplash.com/photo-1489980721706-f487dab89c24?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1f388d3cd50d3f0c3900173d9d5cf4d&auto=format&fit=crop&w=1951&q=80)
+  background-size: cover
+  background-attachment: fixed
+  background-position: bottom
+  .container
+    padding: 100px 0
+    color: white
+    hr
+      max-width: 50px
+      border: solid 2px $color_gray
+    h4
+      color: rgba(white,0.5)
+      font-weight: normal
+    input
+      width: 300px
+      margin: 0 auto
+      background-color: transparent
+
+  

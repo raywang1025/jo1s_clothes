@@ -1,0 +1,140 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體; }
+
+body {
+  height: 2000px; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-size: bold; }
+
+nav.navbar {
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s; }
+
+nav.navbar.navbar-default.navbar-fixed-top.navbar-top {
+  background-color: #ccc;
+  border: #ccc; }
+  nav.navbar.navbar-default.navbar-fixed-top.navbar-top a {
+    color: white;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+    nav.navbar.navbar-default.navbar-fixed-top.navbar-top a:hover {
+      color: #ccc; }
+
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: red; }
+
+.rslides {
+  margin: 0 auto 40px; }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0; }
+
+header.jumbotron {
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1489980721706-f487dab89c24?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1f388d3cd50d3f0c3900173d9d5cf4d&auto=format&fit=crop&w=1951&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom;
+  height: 750px; }
+  header.jumbotron .container {
+    padding: 100px 0;
+    color: white; }
+    header.jumbotron .container hr {
+      max-width: 50px;
+      border: solid 2px #ccc; }
+    header.jumbotron .container h4 {
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: normal; }
+
+section {
+  padding: 50px 0; }
+
+section#section_about {
+  background-color: #ccc; }
+  section#section_about .col-sm-5.img {
+    background-image: url(https://s-media-cache-ak0.pinimg.com/originals/df/dd/eb/dfddeb174a4be44a601aa3fed6b6d30d.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 500px; }
+  section#section_about .col-sm-7 {
+    padding-top: 50px; }
+
+section#section_product {
+  text-align: center; }
+  section#section_product img {
+    width: 150%; }
+  section#section_product .img_wrap {
+    height: 220px;
+    overflow: hidden; }
+
+section#section_texture {
+  margin-bottom: 60px;
+  background-color: #ccc;
+  color: white;
+  padding: 0; }
+  section#section_texture .col-sm-5 .tailor {
+    background-image: url(https://www.permanentstyle.com/wp-content/uploads/2017/03/sartoria-ciccio-cutter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    height: 650px; }
+  section#section_texture .col-sm-7 {
+    text-align: center; }
+    section#section_texture .col-sm-7 i {
+      font-size: 40px; }
+  section#section_texture .col-sm-12.feature {
+    margin-top: 30px;
+    margin-bottom: 30px; }
+    section#section_texture .col-sm-12.feature .img_wrap {
+      height: 220px;
+      overflow: hidden; }
+      section#section_texture .col-sm-12.feature .img_wrap img {
+        width: 100%;
+        overflow: hidden; }
+
+section#section_porfolio {
+  text-align: center; }
+  section#section_porfolio .porfolio_item {
+    height: 325px; }
+    section#section_porfolio .porfolio_item img {
+      width: 100%;
+      overflow: hidden; }
+
+section#section_contact img {
+  width: 100%; }
+
+section#section_contact i {
+  font-size: 30px; }
+
+section#section_contact .feature {
+  padding-top: 10px; }
+
+footer.jumbotron {
+  text-align: center;
+  background-image: url(https://images.unsplash.com/photo-1489980721706-f487dab89c24?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b1f388d3cd50d3f0c3900173d9d5cf4d&auto=format&fit=crop&w=1951&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: bottom; }
+  footer.jumbotron .container {
+    padding: 100px 0;
+    color: white; }
+    footer.jumbotron .container hr {
+      max-width: 50px;
+      border: solid 2px #ccc; }
+    footer.jumbotron .container h4 {
+      color: rgba(255, 255, 255, 0.5);
+      font-weight: normal; }
+    footer.jumbotron .container input {
+      width: 300px;
+      margin: 0 auto;
+      background-color: transparent; }
